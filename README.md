@@ -107,4 +107,3 @@ Then open `http://localhost:8000` in your web browser.
 - **Established**: 2012 (Founded by Dr. Amit Maheshwari)
 - **Corporate Office**: Kodihalli, Bengaluru, Karnataka, India
 - **Development Center**: Sector 2, Noida, Uttar Pradesh, India
-- **Official Domain**: [https://prodesk.in/](https://prodesk.in/)
