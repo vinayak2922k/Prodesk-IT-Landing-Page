@@ -6,14 +6,14 @@ A production-quality, responsive landing page for **Prodesk IT** built strictly 
 
 ## 🚀 Live Demo & Repository
 
-- **Live Deployment URL**: `https://Vinayak2922k.github.io/Prodesk-IT-Landing-Page` *(Placeholder - add after deploying)*
-- **GitHub Repository**: `https://github.com/Vinayak2922k/Prodesk-IT-Landing-Page` *(Placeholder - add after pushing)*
+- **Live Deployment URL**: `https://vinayak2922k.github.io/Prodesk-IT-Landing-Page/`
+- **GitHub Repository**: `https://github.com/vinayak2922k/Prodesk-IT-Landing-Page`
 
 ---
 
 ## 📸 Preview
 
-![Prodesk IT Landing Page Screenshot](assets/images/screenshot_placeholder.png)
+![Prodesk IT Landing Page Screenshot](assets/images/screenshot.png)
 
 ---
 
