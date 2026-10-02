@@ -11,9 +11,23 @@ A production-quality, responsive landing page for **Prodesk IT** built strictly 
 
 ---
 
-## 📸 Preview
+## 📸 Preview Screenshots
 
-![Prodesk IT Landing Page Screenshot](assets/images/screenshot.png)
+### 1. Hero Section ("THINK. DESIGN. DELIVER.")
+![Hero Section Desktop Preview](assets/images/desktop_preview_1.png)
+
+### 2. About Section & Core Pillars
+![About Section Preview](assets/images/desktop_preview_2.png)
+
+### 3. Core Capability Services Grid
+![Services Section Preview](assets/images/desktop_preview_3.png)
+
+### 4. Contact & Developer Credit Footer
+![Contact & Footer Preview](assets/images/desktop_preview_4.png)
+
+### 5. Theme Switcher & Mobile Viewports
+![Theme Switcher Preview](assets/images/mobile_preview_1.png)
+![Mobile Responsive Preview](assets/images/mobile_preview_2.png)
 
 ---
 
