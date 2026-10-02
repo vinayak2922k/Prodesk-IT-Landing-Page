@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Prodesk IT - Premier Enterprise Software Engineering, Cloud Architecture, and Digital Transformation Consultancy." />
+  <title>Prodesk IT | Enterprise Software & Digital Solutions</title>
+  
+  <!-- Google Fonts: Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+
+  <!-- NAVBAR / HEADER -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar" aria-label="Main Navigation">
+        <!-- Logo -->
+        <a href="#home" class="logo" aria-label="Prodesk IT Home">
+          <img src="assets/logo/logo.svg" alt="Prodesk IT Logo" class="logo-img" width="180" height="38" />
+        </a>
+
+        <!-- Navigation Menu Links -->
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li class="nav-menu-cta">
+            <a href="#contact" class="btn btn-primary" style="width:100%;">Get Started</a>
+          </li>
+        </ul>
+
+        <!-- Action Controls -->
+        <div class="nav-actions">
+          <!-- Dark/Light Theme Switcher -->
+          <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark and light theme">
+            <!-- Sun Icon (shown in light mode) -->
+            <svg class="icon-sun" viewBox="0 0 24 24">
+              <path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41l-1.06-1.06zm1.06-10.96c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06z"/>
+            </svg>
+            <!-- Moon Icon (shown in dark mode) -->
+            <svg class="icon-moon" viewBox="0 0 24 24">
+              <path d="M12.3 2c.43 0 .77.35.7.78-.45 2.76.4 5.6 2.37 7.57 1.97 1.97 4.81 2.82 7.57 2.37.43-.07.78.27.78.7 0 5.25-4.25 9.5-9.5 9.5-5.25 0-9.5-4.25-9.5-9.5 0-5.18 4.14-9.39 9.3-9.49.12 0 .25.02.35.07z"/>
+            </svg>
+          </button>
+
+          <!-- Primary Header CTA -->
+          <a href="#contact" class="btn btn-primary nav-cta-btn">Get Started</a>
+
+          <!-- Mobile Hamburger Toggle Button -->
+          <button class="hamburger" id="hamburger-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Left Column: Copy & Actions -->
+          <div class="hero-content">
+            <div class="badge">
+              <span class="badge-dot"></span>
+              DIGITAL EXPERIENCES / CREATIVE TECHNOLOGY
+            </div>
+
+            <h1 class="hero-headline">
+              THINK.<br>
+              <span class="text-accent">DESIGN.</span><br>
+              DELIVER.
+            </h1>
+
+            <p class="hero-desc">
+              Prodesk IT engineers bespoke, enterprise-grade digital software solutions, cloud architecture, and web applications designed for scale and impact.
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="#contact" class="btn btn-primary">
+                Get Started
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="#services" class="btn btn-secondary">Explore Services</a>
+            </div>
+          </div>
+
+          <!-- Right Column: Lightweight CSS Orbital Graphic -->
+          <div class="hero-visual" aria-hidden="true">
+            <div class="orbital-container">
+              <!-- Ring 1 (Outer) -->
+              <div class="ring ring-outer"></div>
+              
+              <!-- Ring 2 (Middle) -->
+              <div class="ring ring-mid"></div>
+              
+              <!-- Ring 3 (Inner) -->
+              <div class="ring ring-inner"></div>
+
+              <!-- Center Core Node -->
+              <div class="core-node">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                  <polyline points="2 17 12 22 22 17"></polyline>
+                  <polyline points="2 12 12 17 22 12"></polyline>
+                </svg>
+              </div>
+
+              <!-- Orbit Floating Service Badges -->
+              <div class="orbit-label label-top">
+                <span class="dot"></span>
+                <span>Cloud Architecture</span>
+              </div>
+
+              <div class="orbit-label label-right">
+                <span class="dot"></span>
+                <span>Enterprise AI</span>
+              </div>
+
+              <div class="orbit-label label-bottom">
+                <span class="dot"></span>
+                <span>Custom Apps</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge">
+            <span class="badge-dot"></span>
+            ABOUT PRODESK IT
+          </div>
+          <h2 class="section-title">Engineering Digital Excellence</h2>
+          <p class="section-desc">
+            Established in 2012 by technology visionaries, Prodesk IT is an enterprise software development consultancy with hubs in Bengaluru and Noida.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Pillar 1 -->
+          <div class="about-card">
+            <div class="about-number">01</div>
+            <h3 class="about-card-title">Enterprise Engineering</h3>
+            <p class="about-card-desc">
+              We engineer custom software applications tailored to unique business workflows, emphasizing modularity, performance, and clean code principles.
+            </p>
+          </div>
+
+          <!-- Pillar 2 -->
+          <div class="about-card">
+            <div class="about-number">02</div>
+            <h3 class="about-card-title">Cloud-Native Architecture</h3>
+            <p class="about-card-desc">
+              Building resilient CI/CD pipelines, containerized microservices, and multi-cloud infrastructure for seamless operational agility.
+            </p>
+          </div>
+
+          <!-- Pillar 3 -->
+          <div class="about-card">
+            <div class="about-number">03</div>
+            <h3 class="about-card-title">Secure By Design</h3>
+            <p class="about-card-desc">
+              Integrating rigorous cybersecurity audits, data privacy protocols, and end-to-end encryption into every step of the development lifecycle.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge">
+            <span class="badge-dot"></span>
+            OUR SERVICES
+          </div>
+          <h2 class="section-title">Core Capability Portfolio</h2>
+          <p class="section-desc">
+            We deliver high-impact digital solutions designed to accelerate growth, enhance reliability, and modernize legacy IT systems.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service Card 1 -->
+          <article class="service-card">
+            <div class="service-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">Software & Application Development</h3>
+            <p class="service-desc">
+              Custom web, mobile, and desktop application engineering built with robust frameworks like Java, Python, and modern Javascript.
+            </p>
+            <a href="#contact" class="service-link">
+              Explore Solution
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </article>
+
+          <!-- Service Card 2 -->
+          <article class="service-card">
+            <div class="service-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">Enterprise Solutions & Integration</h3>
+            <p class="service-desc">
+              Scalable CRM, ERP, and HRM software integrations connecting disparate API ecosystems into unified operational dashboards.
+            </p>
+            <a href="#contact" class="service-link">
+              Explore Solution
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </article>
+
+          <!-- Service Card 3 -->
+          <article class="service-card">
+            <div class="service-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Cloud Infrastructure & DevOps</h3>
+            <p class="service-desc">
+              Automated CI/CD pipelines, cloud migration, infrastructure management, and 24/7 security monitoring for high uptime.
+            </p>
+            <a href="#contact" class="service-link">
+              Explore Solution
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / CTA SECTION -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="contact-card-wrapper">
+          <!-- Left: Verified Corporate Details -->
+          <div class="contact-info">
+            <div class="badge" style="margin-bottom: 1rem;">
+              <span class="badge-dot"></span>
+              GET IN TOUCH
+            </div>
+            <h2>Ready to Accelerate Your Digital Transformation?</h2>
+            <p>
+              Connect with our technology consultants to discuss your custom engineering requirements and project roadmap.
+            </p>
+
+            <div class="office-list">
+              <!-- Office 1: Bengaluru -->
+              <div class="office-item">
+                <div class="office-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div class="office-details">
+                  <h4>Bengaluru Corporate Hub</h4>
+                  <p>Kodihalli, Bengaluru, Karnataka, India</p>
+                </div>
+              </div>
+
+              <!-- Office 2: Noida -->
+              <div class="office-item">
+                <div class="office-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div class="office-details">
+                  <h4>Noida Development Center</h4>
+                  <p>Sector 2, Noida, Uttar Pradesh, India</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Contact CTA Action Box -->
+          <div class="contact-cta-box">
+            <h3>Start a Conversation</h3>
+            <p>Our engineering team will analyze your specifications and provide a strategic project proposal.</p>
+            <a href="mailto:info@prodesk.in" class="btn btn-primary" style="width: 100%;">
+              Get in Touch
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#home" class="logo" aria-label="Prodesk IT Home">
+            <img src="assets/logo/logo.svg" alt="Prodesk IT Logo" class="logo-img" width="180" height="38" />
+          </a>
+          <p>
+            Delivering bespoke enterprise software development, cloud infrastructure, and digital transformation services since 2012.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Services</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Custom Applications</a></li>
+            <li><a href="#services">Enterprise CRM & ERP</a></li>
+            <li><a href="#services">Cloud Architecture</a></li>
+            <li><a href="#services">Cybersecurity Audits</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Connect</h4>
+          <div class="footer-socials">
+            <a href="https://prodesk.in/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Official Website">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/><line x1="2" y1="12" x2="22" y2="12" stroke="currentColor" stroke-width="2"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+            </a>
+            <a href="mailto:info@prodesk.in" class="social-icon" aria-label="Send Email">
+              <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" fill="none" stroke="currentColor" stroke-width="2"/><polyline points="22,6 12,13 2,6" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year">2026</span> Prodesk IT. All rights reserved.</p>
+        <p>Built with Pure HTML5, CSS3 &amp; Vanilla JavaScript.</p>
+      </div>
+
+      <!-- Developer Credit Section -->
+      <div class="developer-credit">
+        <span>Designed &amp; Developed by <strong>Vinayak Sharma</strong></span>
+        <div class="dev-socials">
+          <a href="https://www.linkedin.com/in/vinayak2922k/" target="_blank" rel="noopener noreferrer" class="dev-social-link" aria-label="Vinayak Sharma on LinkedIn">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor">
+              <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+            </svg>
+          </a>
+          <a href="https://github.com/vinayak2922k" target="_blank" rel="noopener noreferrer" class="dev-social-link" aria-label="Vinayak Sharma on GitHub">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor">
+              <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
+            </svg>
+          </a>
+          <a href="https://vinayak2922k.github.io/Portfolio-Site/" target="_blank" rel="noopener noreferrer" class="dev-social-link" aria-label="Vinayak Sharma Portfolio">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="js/script.js"></script>
+</body>
+</html>

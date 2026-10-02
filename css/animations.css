@@ -1,0 +1,22 @@
+@keyframes rotateClockwise { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+@keyframes rotateCounterClockwise { 0% { transform: rotate(360deg); } 100% { transform: rotate(0deg); } }
+@keyframes corePulse {
+  0%, 100% { box-shadow: 0 0 25px var(--accent-glow); transform: scale(1); }
+  50% { box-shadow: 0 0 45px var(--accent-glow), 0 0 15px var(--accent); transform: scale(1.04); }
+}
+@keyframes floatY {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+.ring-outer { animation: rotateClockwise 40s linear infinite; }
+.ring-mid { animation: rotateCounterClockwise 30s linear infinite; }
+.ring-inner { animation: rotateClockwise 20s linear infinite; }
+.core-node { animation: corePulse 4s ease-in-out infinite; }
+.label-top { animation: floatY 5s ease-in-out infinite; }
+.label-right { animation: floatY 6s ease-in-out infinite 1s; }
+.label-bottom { animation: floatY 5.5s ease-in-out infinite 2s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .ring-outer, .ring-mid, .ring-inner, .core-node, .label-top, .label-right, .label-bottom { animation: none !important; }
+}
